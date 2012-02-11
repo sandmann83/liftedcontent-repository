@@ -1,12 +1,12 @@
-package eu.sbradl.repository.lib
+package eu.sbradl.liftedcontent.repository.lib
 
 import net.liftweb.http.rest.RestHelper
 import net.liftweb.http.Req
 import net.liftweb.util.IoHelpers
 import java.io.File
-import eu.sbradl.repository.ContentRepository
 import net.liftweb.http.InMemoryResponse
 import net.liftweb.http.NotFoundResponse
+import eu.sbradl.liftedcontent.repository.ContentRepository
 
 object ContentProvider extends RestHelper {
 

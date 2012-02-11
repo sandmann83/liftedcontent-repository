@@ -1,14 +1,14 @@
-package eu.sbradl.repository.snippet
+package eu.sbradl.liftedcontent.repository.snippet
 
 import net.liftweb.util.Helpers._
 import net.liftweb.http.SHtml
 import net.liftweb.http.FileParamHolder
 import net.liftweb.http.S
-import eu.sbradl.repository.ContentRepository
 import net.liftweb.common.Full
 import java.io.File
 import java.io.OutputStream
 import java.io.FileOutputStream
+import eu.sbradl.liftedcontent.repository.ContentRepository
 
 class UploadFile {
 

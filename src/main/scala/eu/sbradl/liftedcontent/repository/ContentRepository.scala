@@ -1,6 +1,5 @@
-package eu.sbradl.repository
+package eu.sbradl.liftedcontent.repository
 
-import de.sbradl.liftedcontent.util.Module
 import java.io.File
 import org.apache.derby.impl.store.raw.data.DirectActions
 import net.liftweb.http.LiftRules
@@ -11,7 +10,8 @@ import net.liftweb.http.RewriteResponse
 import net.liftweb.http.OutputStreamResponse
 import net.liftweb.util.IoHelpers
 import net.liftweb.http.InMemoryResponse
-import eu.sbradl.repository.lib.ContentProvider
+import de.sbradl.liftedcontent.util.Module
+import eu.sbradl.liftedcontent.repository.lib.ContentProvider
 
 object ContentRepository extends Module {
   

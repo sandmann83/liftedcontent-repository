@@ -1,8 +1,8 @@
-package eu.sbradl.repository.snippet
+package eu.sbradl.liftedcontent.repository.snippet
 
 import net.liftweb.util.Helpers._
-import eu.sbradl.repository.ContentRepository
 import scala.xml.Text
+import eu.sbradl.liftedcontent.repository.ContentRepository
 
 class ImageRepository {
 
