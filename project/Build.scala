@@ -11,7 +11,8 @@ object AutoCompleteBuild extends Build {
       "org.slf4j" % "slf4j-log4j12" % "1.6.4",
       "net.liftweb" %% "lift-webkit" % liftVersion % "compile->default" withSources,
       "net.liftweb" %% "lift-util" % liftVersion % "compile->default" withSources,
-      "net.liftweb" %% "lift-common" % liftVersion % "compile->default" withSources
+      "net.liftweb" %% "lift-common" % liftVersion % "compile->default" withSources,
+      "eu.sbradl" %% "liftedcontent-util" % "1.0.0" % "compile"
     )
   )
 
