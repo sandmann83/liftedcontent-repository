@@ -28,6 +28,8 @@ object ContentRepository extends Module {
     dir.mkdir
   }
   
+  def repositories = queries.keys
+  
   def query(repo: String, term: String) = queries(repo)(term)
   
   override def init {
