@@ -43,7 +43,9 @@ object ContentRepository extends Module {
     
     dir.listFiles match {
       case null => List()
-      case ls => ls map (f => (f.getName, "/content/images/" + f.getName))
+      case ls => {
+        ls filterNot (_.getName.startsWith(".")) map (f => (f.getName, "/content/images/" + f.getName))
+      }
     }
   }
   
