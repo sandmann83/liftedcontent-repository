@@ -13,8 +13,6 @@ import net.liftweb.http.LiftRules
 object ContentRepository extends Module {
   
   private var queries = Map[String, (String) => Seq[(String, String)]]()
-
-  def name = "ContentRepository"
     
   lazy val contentDirectory = "upload"
     
