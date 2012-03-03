@@ -1,17 +1,14 @@
 package eu.sbradl.liftedcontent.repository
 
-import java.io.File
-import org.apache.derby.impl.store.raw.data.DirectActions
-import net.liftweb.http.LiftRules
-import net.liftweb.util.NamedPF
-import net.liftweb.http.RewriteRequest
-import net.liftweb.http.ParsePath
-import net.liftweb.http.RewriteResponse
-import net.liftweb.http.OutputStreamResponse
-import net.liftweb.util.IoHelpers
-import net.liftweb.http.InMemoryResponse
-import de.sbradl.liftedcontent.util.Module
 import eu.sbradl.liftedcontent.repository.lib.ContentProvider
+import eu.sbradl.liftedcontent.util.Module
+
+import java.io.File
+
+import scala.Array.fallbackCanBuildFrom
+
+import net.liftweb.http.LiftRulesMocker.toLiftRules
+import net.liftweb.http.LiftRules
 
 object ContentRepository extends Module {
   
