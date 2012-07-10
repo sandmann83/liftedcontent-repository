@@ -28,7 +28,7 @@ object ContentRepository extends Module {
   def query(repo: String, term: String) = queries(repo)(term)
   
   override def init {
-    LiftRules.statelessDispatchTable.append(ContentProvider)
+    LiftRules.statelessDispatch.append(ContentProvider)
     
     register("images", imageQuery)
   }
